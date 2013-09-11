@@ -64,5 +64,8 @@ namespace ZendeskApi_v2.Models.Topics
 
         [JsonProperty("updated_at")]
         public string UpdatedAt { get; set; }
+
+        [JsonProperty("answered")]
+        public bool Answered { get; set; }
     }
 }
